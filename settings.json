@@ -1,0 +1,11 @@
+{
+    "python.linting.pylintEnabled": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "python.pythonPath": "<venv_path>/bin/python",
+    "python.linting.pylintPath": "python",
+    "python.linting.pylintArgs": [
+        "-m",
+        "pylint"
+    ]
+}
