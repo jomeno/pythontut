@@ -1,4 +1,6 @@
 """This is my doc string"""
+#from shopping_manager import addtax
+from modules import shopping_manager
 #FIRSTNAME = raw_input("Please type  your name and press enter:")
 #GREETING = "Hello    %s" % FIRSTNAME
 #print GREETING
@@ -37,3 +39,21 @@ print 'The number has a character count: ' + str(len(str(COST1)))
 print int(COST2)
 NUMBERS = range(1, 11, 2)
 print NUMBERS
+
+#demostrating import use
+print shopping_manager.addtax(2000, 5)
+
+
+class Pet(object):
+    """Pet class"""
+    legcount = 0
+    def __init__(self):
+        self.legcount = 1
+
+    def sleep(self):
+        """Sleep"""
+        print "Asleep"
+
+ZEUS = Pet()
+print ZEUS.legcount
+ZEUS.sleep()

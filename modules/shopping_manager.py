@@ -1,4 +1,4 @@
-"""Shopping Manager"""
+"""Shopping Manager Module"""
 def addtax(price, tax):
     """Add Tax"""
     newprice = price / 100 * (100 * tax)
