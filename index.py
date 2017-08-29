@@ -57,3 +57,12 @@ class Pet(object):
 ZEUS = Pet()
 print ZEUS.legcount
 ZEUS.sleep()
+
+class Dog(Pet):
+    """Dog class"""
+    def bark(self):
+        """Dogs bark"""
+        print "Woof"
+
+HERA = Dog()
+print HERA.bark()
